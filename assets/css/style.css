@@ -1,0 +1,417 @@
+body, html {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	min-width: 960px;
+	/*background-color: black;*/
+	-webkit-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+  font-family: 'Open Sans', sans-serif;
+	overflow-x: hidden;
+
+}
+
+/** {
+    font: Lato, Arial, 'sans-serif' !important;/* <-- fonts */
+/*}*/
+
+#top-bar {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  /* border-bottom: thin solid black; */
+  height: 70px;
+  background-color: black;
+  /* color: white; */
+}
+#name {
+  color: black;
+  font-weight: bold;
+  position: relative;
+  /* padding: 10px; */
+  font-size: 200%;
+  padding-left: 10px;
+  width: 30%;
+  margin-left: 5%;
+  display: flex;
+  /* margin-right: 0px; */
+  align-items:  center;
+  /* z-index: 20; */
+  color: white;
+  /* vertical-align: middle; */
+  top: 50%;
+  transform: translateY(-50%);
+  /* height: 100%; */
+  /* background-color: white; */
+  float: left;
+}
+#topbar-info ul{
+  font-weight: bold;
+  font-size: 150%;
+  height: 100%;
+  width: 40%;
+  float: right;
+  list-style: none;
+  margin-right: 5%;
+  /* color: white; */
+  /* top: -7px; */
+}
+#topbar-info ul li{
+	display: inline;
+	position: relative;
+	top: -7px;
+	color: white;
+}
+
+.top-info {
+  font-size: 80%;
+  position: relative;
+  /* top: 40%; */
+  /* transform: translateY(-40%); */
+  float: right;
+  display: flex;
+  margin-right: 30px;
+  vertical-align: middle;
+  top: 50%;
+  transform: translateY(-13.5px);
+}
+#page-wrapper {
+  /* text-align: center; */
+  /* padding: 27px; */
+  /* margin: 0 auto; */
+  /* padding-left: 10px; */
+  /* margin-left: 5%; */
+  /* margin-right: 55.391px; */
+  background: white;
+  width: 100%;
+  display: inline-block;
+	margin-top:30px;
+  /* margin-top: 100px; */
+}
+
+.section {
+    width: 100%;
+    position: relative;
+
+
+}
+#aboutme {
+	height: 400px;
+	/* padding-left: 10px; */
+	/* margin-left: 5%; */
+	width: 100%;
+	padding-bottom: 100px;
+}
+#projects {
+	height: 300px;
+	padding-bottom: 100px;
+}
+#Blog {
+
+padding-bottom: 30px;
+
+padding-top: 30px;
+}
+
+#contactsection {
+  height: 70px;
+  padding-left: 10px;
+  margin-left: 5%;
+}
+#carousel-section {
+	padding-bottom: 30px;
+}
+.projectscontainer {
+	height: 300px;
+width: 100%;
+margin-left: 5%;
+padding-bottom: 20px;
+padding-left: 10px;
+}
+.projectscarouselitem {
+  position: relative;
+  height: 100%;
+  width: 33.3%;
+  float: left;
+}
+#projects{
+	height: 500px;
+	background-color: black;
+}
+
+.aboutme{
+	font-size: 300%;
+	font-weight: bold;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	margin-left: 5%;
+	/* text-align: center; */
+	text-decoration:underline;
+}
+
+.aboutmecontent {
+
+padding-left: 10px;
+
+width: 50%;
+
+margin-left: 5%;
+
+height: 100%;
+
+float: left;
+}
+
+.projectstitle{
+	font-size: 300%;
+	font-weight: bold;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	margin-left: 5%;
+	/* text-align:center; */
+	text-decoration: underline;
+	padding-top: 50px;
+	color: white;
+}
+.ProjectTitle{
+	padding-bottom:10px;
+	/* text-align: center; */
+	text-decoration: underline;
+	trasnform: translateX(-50%);
+	color: white;
+	font-weight: bold;
+}
+.Project {
+	width:350px;
+	height:300px;
+}
+#blogtitle {
+	font-size: 300%;
+	font-weight: bold;
+	padding-bottom: 40px;
+	/* text-align: center; */
+	text-decoration: underline;
+	margin-left: 5%;
+	padding-left: 10px;
+}
+
+.blogreadmorebutton {
+	padding-top: 10px;
+/* opacity: 0.8; */
+/*text-decoration: underline;*/
+	color: black;
+	text-decoration: none;
+}
+
+
+.contactme {
+	font-size: 150%;
+    font-weight: bold;
+    padding-bottom: 20px;
+    float: left;
+    padding-right: 50%;
+}
+
+.quotetext {
+	padding-bottom: 20px;
+padding-left: 10px;
+margin-left: 5%;
+}
+.quoted {
+	padding-bottom: 20px;
+padding-left: 10px;
+margin-left: 5%;
+text-align: center;
+}
+.blogentry {
+	padding-left: 10px;
+	margin-left: 5%;
+	padding-bottom: 20px;
+}
+#blogdate{
+	padding-bottom: 10px;
+	text-decoration: underline;
+		font-weight: bold;
+		font-size: 120%;
+}
+.projectimg{
+	width: 350px;
+	height: 300px;
+}
+.projectimage {
+	width: 100%;
+	height: 100%;
+	border-width: 10px;
+border-radius: 10px;
+width: 100%;
+  object-fit: cover;
+  text-align: center;
+	  border: thin solid rgba(0,0,0,0.5);
+}
+.img-scaled {
+	width: 100%;
+	height: 100%;
+}
+.carousel-container {
+	width: 100%;
+	margin: auto;
+	height: 600px;
+	position: relative;
+	overflow: hidden;
+	background-color: black;
+}
+.carousel-item {
+	width: 20%;
+	position: relative;
+	height: 100%;
+	float: left;
+}
+.quote {
+	position: absolute;
+	font-size: 36px;
+	color: white;
+	font-weight: 700;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+   	transform: translateX(-50%) translateY(-50%);
+}
+
+/* Styling for the author text in each quote */
+.author {
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: .2rem;
+	text-transform: uppercase;
+	margin-top: 10px;
+	text-align: center;
+}
+#carousel {
+	width: 500%;
+	height: 100%;
+	margin-left: 0px;
+	transition: all 0.3s;
+}
+
+#carousel-prev {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    left: 60px;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    -webkit-transition: all 0.3s;
+}
+
+/* Styling for the carousel next button */
+#carousel-next {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    right: 60px;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    -webkit-transition: all 0.3s;
+}
+.contactimg{
+	width: 50px;
+	height: 50px;
+	padding-right: 50px;
+	float: left;
+}
+.contact-img {
+	width: 100%;
+	height: 100%;
+	border-width: 10px;
+border-radius: 10px;
+width: 100%;
+  object-fit: cover;
+  text-align: center;
+	top: 50%;
+	margin-top: -10px;
+
+}
+a {
+    color: black;
+    text-decoration:none;
+}
+
+.contact-img:hover{
+	transform: scale(1.1, 1.1);
+	transition: 0.4s;
+}
+
+.profpic {
+	width: 400px;
+	height: 252px;
+	float: left;
+}
+
+.profile {
+	width: 100%;
+	height:100%;
+
+	padding-left: 100px;
+}
+.resumelink{
+	text-decoration:underline;
+}
+.sidebar-item {
+	padding-right: 20px;
+}
+#overlay1 {
+	display: none;
+	width: 325px;
+	height: 275px;
+	border-radius: 0 0 10px 10px;
+	padding: 12.5px;
+	color:white;
+	background-color: rgba(0,0,0,0.6);
+	position: absolute;
+	z-index: 5;
+	top: 11%;
+	left: 1px;
+}
+#overlay3 {
+	display: none;
+	width: 325px;
+	height: 275px;
+	border-radius: 0 0 10px 10px;
+	padding: 12.5px;
+	color:white;
+	background-color: rgba(0,0,0,0.6);
+	position: absolute;
+	z-index: 5;
+	top: 11%;
+	left: 1px;
+}
+#overlay2 {
+	display: none;
+	width: 325px;
+	height: 275px;
+	border-radius: 0 0 10px 10px;
+	padding: 12.5px;
+	color:white;
+	background-color: rgba(0,0,0,0.6);
+	position: absolute;
+	z-index: 5;
+	top: 11%;
+	left: 1px;
+}
+
+/*.projectimg:hover .overlay{
+	transition: 0.4s;
+	visibility: visible;
+opacity: 1;
+
+}*/
