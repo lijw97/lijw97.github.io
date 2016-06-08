@@ -339,8 +339,6 @@ a.u2song {
 }
 
 .carousel-inner {
-  background: #eee;
-
 }
 
 .projimage .house-thumb img {
@@ -353,6 +351,19 @@ a.u2song {
 
 .row.featurette{
 
+}
+.glyphicon-chevron-right:before {
+  content: "\e080";
+  background-color: black;
+    padding-bottom: 2px;
+    border-radius: 5px;
+}
+
+.glyphicon-chevron-left:before {
+    content: "\e079";
+    background-color: black;
+    border-radius: 5px;
+    padding-bottom: 2px;
 }
 
 .projimage {
