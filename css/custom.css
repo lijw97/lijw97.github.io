@@ -398,6 +398,12 @@ li {
     height: 35px;
     padding-top:7.5px;
 }
+.sidebar-divider {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 h1 {
   font-size: 28px;
   font-weight: 300;
