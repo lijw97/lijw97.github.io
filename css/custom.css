@@ -1,0 +1,430 @@
+body, html {
+    font-family: 'Open-Sans';
+    -webkit-font-smoothing: antialiased;
+  	-o-font-smoothing: antialiased;
+  	font-smoothing: antialiased;
+    font-family: 'Open Sans', sans-serif;
+  	overflow-x: hidden;
+}
+
+
+body {
+
+  width: 100%;
+  margin: 0;
+  font-weight: 300;
+}
+a.pic {
+
+}
+
+#header {
+  height: 667px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("../img/coloringbook.jpg");
+
+    /*background-attachment:fixed;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.artistpicture {
+  width: 100%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  text-align: center;
+  border: thin solid rgba(0,0,0,0.5);
+  /* position: fixed; */
+}
+.songname {
+   color: white;
+  text-align: center;
+  font-size: 25px;
+  /* position: fixed; */
+  z-index: 100;
+}
+.contactwrapper{
+  height:100%;
+}
+.albumnameandartist {
+  /* color: white; */
+  text-align: center;
+  font-size: 18px;
+  /* position: fixed; */
+  z-index: 100;
+}
+.name {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  padding-top: 299.5px;
+  font-size: 50px;
+  color: white;
+  font-weight: 300;
+
+}
+.namedescription {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  font-weight: 300;
+}
+
+.artistinfo {
+  font-size: 13px;
+  color: white;
+  position: relative;
+  bottom: -37vh;
+  right: -82vw;
+}
+
+#body {
+  height: 200vh;
+  width: 100%;
+  color: #4a4a4a;
+
+}
+
+#aboutme {
+  height: 250px;
+  width: 100vw;
+}
+
+.greeting {
+  font-size: 35px;
+  font-weight: bold;
+  /* background-color: white; */
+  /* text-decoration: underline; */
+  text-decoration-color: white:;
+  padding-top: 75px;
+  text-align: center;
+  padding-bottom: 10px;
+  width: 100%;
+  /* margin-right: 0; */
+  /* margin-left: 15vw; */
+  /* text-align: center; */
+}
+
+.intro {
+  font-size: 18px;
+
+  padding-top: 0;
+  text-align: center;
+  font-weight: 300;
+}
+
+.resume {
+
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 8px;
+    font-weight: 300;
+
+}
+
+.blog{
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 8px;
+  font-weight: 300;
+}
+a.resumelink {
+color: #23527c;
+font-weight: bold;
+text-decoration: none;
+  transition: all 0.3s;
+
+}
+li.sidebar-item:hover {
+  text-decoration: none;
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
+hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin-top: 5px;
+  margin-bottom: 20px;
+
+}
+.featurette-divider {
+  margin: 80px;
+
+}
+
+
+
+#sidebar-button {
+	position: fixed;
+	z-index: 100;
+	left: 15px;
+	top: 15px;
+	height: 45px;
+	width: 45px;
+	cursor: pointer;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+	background-color: black;
+  border-radius:20%;
+}
+
+#nav-toggle {
+	position: absolute;
+	left: 7.5px;
+	top: 10px;
+}
+
+#nav-toggle {
+	padding: 10px 30px 15px 0px;
+	/* height: 20px; */
+	/* width: 20px; */
+	/* background-color: black; */
+}
+
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+	height: 3px;
+	width: 30px;
+	background: #fff;
+	position: absolute;
+	display: block;
+	content: '';
+	/* text-align: center; */
+}
+
+#nav-toggle span:before {
+	top: -10px;
+}
+
+#nav-toggle span:after {
+	bottom: -10px;
+}
+/* jQuery Manipulation Classes */
+
+.sidebar-container ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-top: 10px;
+	color: white;
+  text-decoration:none;
+}
+
+.sidebar-container {
+	position: fixed;
+	width: 175px;
+	height: 100%;
+	background-color: black;
+	-webkit-transform: translateX(-175px);
+	-webkit-transition: all 0.3s;
+  -moz-transform: translate(-175px);
+  -moz-transition: all 0.3s;
+  -o-transform: translate(-175px);
+  -o-transition: all 0.3s;
+  transform: translate(-175px);
+  transition: all 0.3s;
+}
+
+.sidebar-item {
+	font-weight: 300;
+	font-size: 16px;
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+  transition: all 0.3s;
+}
+
+
+.resumelink:hover {
+  transition: all 0.3s;
+  transform: scale(1.08);
+}
+
+.page-wrapper {
+	height: 100%;
+	width: 100%;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+}
+
+
+/* Styling for the carousel next button */
+
+/* jQuery Manipulation Classes */
+
+.no-scroll {
+	overflow: hidden;
+}
+
+.wrapper-active, .button-active {
+	-webkit-transform: translateX(175px);
+	-moz-transform: translateX(175px);
+	transform: translateX(175px);
+  -o-transform: translateX(175px);
+
+}
+
+.sidebar-active {
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	-o-transform: translateX(0px);
+  transform: translateX(0px);
+}
+a.u2song {
+  color: white;
+}
+
+.songname:hover {
+  transform: scale(1.05);
+  transition: 0.4s;
+}
+#projects {
+  width: 100%;
+  /* padding-top: 50px; */
+  padding-bottom: 50px;
+
+  /* margin-top: 20px; */
+}
+.projectheader{
+  font-size: 35px;
+  text-align: center;
+
+}
+.projectsubheader{
+  font-size: 18px;
+  text-align: center;
+  font-weight: 300;
+}
+#music {
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.slide-content {
+  color: black;
+  margin-top: 15%;
+}
+.slide-wrapper {
+  margin-top: 4%;
+}
+.carousel-indicators {
+  bottom: 100px;
+}
+.slide-content p {
+  font-size: 20px;
+}
+.house-thumb {
+  max-height: 310px;
+  float:right;
+  color: black;
+}
+.slide-image .house-thumb img {
+  max-height: 300px;
+}
+
+.carousel {
+
+  width: 80%;
+  margin-left: 10%;
+}
+
+.carousel-inner {
+  background: #eee;
+
+}
+
+.projimage .house-thumb img {
+  max-height: 300px;
+}
+
+ h2 {
+    font-size: 30px;
+}
+
+.row.featurette{
+  background-color: #eee;
+
+}
+
+.projimage {
+  margin-top: 6%;
+}
+
+.carousel-control.left {
+  background-image: none;
+
+}
+.carousel-control {
+  width: 7.5%;
+}
+
+.carousel-control.right {
+  background-image: none;
+
+}
+
+li {
+  border-color: black;
+}
+
+/*#contactsection {
+  height: 70px;
+  padding-left: 10px;
+  margin-left: 5%;
+}*/
+.contactme {
+  margin-left: 80px;
+    font-size: 25px;
+    height: 35px;
+    padding-top:7.5px;
+}
+h1 {
+  font-size: 28px;
+}
+.contactimg{
+	width: 50px;
+	height: 50px;
+	margin-right:40px;
+	float: left;
+}
+.contactcontainer {
+  height: 100%;
+width: 50%;
+margin-left: 65%;
+margin-top: -3.65%;
+}
+
+#contactsection.section {
+  height: 50px;
+    margin-top: -50px;
+}
+.contact-img {
+	width: 100%;
+	height: 100%;
+	border-width: 10px;
+border-radius: 10px;
+width: 100%;
+  object-fit: cover;
+  text-align: center;
+	top: 50%;
+  transition: all 0.3s;
+}
+.contact-img:hover {
+  transform: scale(1.1);
+}
+hr.featurette.contact{
+  margin-left:80px;
+  margin-right:80px;
+  margin-top: -20px;
+
+}

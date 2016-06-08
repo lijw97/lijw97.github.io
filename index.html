@@ -1,275 +1,327 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
   <head>
-    <title>Jeffrey Li</title>
-    <link rel="stylesheet" href="assets/css/style.css">
 
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans" />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
-        </script>
-    <script src = "assets/js/script.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css">
+    <link rel ="stylesheet" href= "css/carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src = "js/script.js"></script>
+    <title> Jeffrey Li </title>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <nav id = "top-bar">
-      <div id = "name">Jeffrey Li</div>
-      <div id = "topbar-info">
+    <div id = "sidebar-button">
+        <a id="nav-toggle">
+            <span></span>
+        </a>
+    </div>
+    <!-- Sidebar -->
+    <nav class = "sidebar-container">
         <ul>
-                <a href = "#aboutme">
-                    <li class = "sidebar-item">About Me</li>
-                </a>
+            <a href = "#aboutme" class = "sidebar">
+                <li class = "sidebar-item">Introduction</li>
+            </a>
+            <a href = "#projects" class = "sidebar">
+                <li class = "sidebar-item">Projects</li>
+            </a>
+            <a href = "#music" class = "sidebar">
+                <li class = "sidebar-item">Music</li>
+            </a>
 
-                <a href = "#projects">
-                    <li class = "sidebar-item">Projects</li>
-                </a>
-
-                <a href = "#Blog">
-                    <li class = "sidebar-item">Blog</li>
-                </a>
-
-                <a href = "#contactsection">
-                    <li class = "sidebar-item">Contact Me</li>
-                </a>
-            </ul>
-      </div>
+            <a href = "https://lijw97blog.wordpress.com/" class = "sidebar">
+                <li class = "sidebar-item">Blog</li>
+            </a>
+            <a href = "https://github.com/lijw97" class = "sidebar">
+                <li class = "sidebar-item">GitHub</li>
+            </a>
+        </ul>
     </nav>
-    <div id = "page-wrapper">
-      <section class = "section" id = 'aboutme'>
-        <div class = "aboutme">
-          About Me
+    <div class = "page-wrapper">
+      <div id = "header">
+        <div class = "name">
+          Jeffrey Li
         </div>
-        <div class = "aboutmediv">
-          <div class = "aboutmecontent">
-            <p>Hi, I'm Jeffrey! "Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-             in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-             ulpa qui officia deserunt mollit anim id est laborum."
-           </p>
-           <p>"Lorem ipsum dolor sit amet,
-           consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-           dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-           laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            ulpa qui officia deserunt mollit anim id est laborum."
-          </p>
-           <p> Check out my resume <a class = "resumelink" href = "https://www.google.com">here</a>!</p>
-           </div>
-           <div class = "profpic">
-             <img class = "profile" src="assets/img/pic.jpg" alt="pic"></img>
-           </div>
+        <div class = "namedescription">
+          Aspiring engineer. Music enthusiast.
         </div>
-      </section>
-      <section class = "section" id = "projects">
-      <div class = "projectstitle">
-        Projects
+        <div class = "artistinfo">
+          Coloring Book - Chance the Rapper
+        </div>
       </div>
-      <div class = "projectscontainer">
-        <div class = "projectscarouselitem">
-          <div class = "Project">
-            <div class = "ProjectTitle"> Scheme </div>
+      <div id = "body">
+        <div id = "aboutme">
+          <div class = "greeting">
+            19 year old at Berkeley studying Computer Science.
+          </div>
 
-            <div class = "projectimg">
-              <img class = "projectimage" id = "projectimage1" src="assets/img/denero.jpg" alt="Denero"></img>
-              <div class = "overlay" id = "overlay1">"Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-               in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-               pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-               ulpa qui officia deserunt mollit anim id est laborum."
-             </div>
-            </div>
-
+          <div class = "intro">
+            I'm passionate about coding, hip-hop, tennis, and all things Cal basketball.
+          </div>
+          <div class = "resume">
+            Check out my resume <a href = "https://www.google.com" class = "resumelink" style = "text-decoration: none">here</a>!
+          </div>
+          <div class = "blog">
+            You can also read my blog <a href = "https://www.google.com" class = "resumelink" style = "text-decoration: none">here</a>!
           </div>
         </div>
-        <div class = "projectscarouselitem">
-          <div class = "Project">
-            <div class = "ProjectTitle"> Maps </div>
-
-            <div class = "projectimg">
-              <img class = "projectimage" id = "projectimage2" src="assets/img/maps.jpg" alt="maps"></img>
-              <div class = "overlay" id = "overlay2">"Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-               in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-               pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-               ulpa qui officia deserunt mollit anim id est laborum."
-             </div>
-            </div>
-
-
+        <hr class = "featurette-divider">
+        <div id = "projects">
+          <div class = "projectheader">
+            Technical Projects
           </div>
+          <div class = "projectsubheader">
+            Coding projects that I have completed over the years.
+          </div>
+          <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading" style = "font-size: 30px">Bear Maps <span class="text-muted">Spring 2016</span></h2>
+          <p class="lead">Using an A* algorithm and a quadtree that holds a collection of images representing the city of Berkeley,
+          I created a working application that returns the shortest path between any two locations in Berkeley. Also, I used a trie
+          to implement an autofill functionality in a search bar. </p>
         </div>
-        <div class = "projectscarouselitem">
-          <div class = "Project">
-            <div class = "ProjectTitle"> Text Editor </div>
-
-            <div class = "projectimg">
-              <img class = "projectimage" id = "projectimage3" src="assets/img/text.png" alt="text"></img>
-              <div class = "overlay" id = "overlay3">"Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-               in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-               pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-               ulpa qui officia deserunt mollit anim id est laborum."
-             </div>
+        <div class="col-md-5">
+          <div class = "projimage">
+            <div class = "thumbnail house-thumb">
+              <img class="featurette-image img-responsive center-block" src="img/maps.jpg" alt="Generic placeholder image">
             </div>
-
           </div>
         </div>
       </div>
-      </section>
-      <section class = "section" id = "Blog">
-        <div id = "blogtitle">
-          Blog
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading" style = "font-size: 30px">Drum Machine <span class="text-muted">Summer 2016</span></h2>
+          <p class="lead"> Using ArrayLists, JavaFX, and Java, I created a drum-machine with customizable sounds
+          that plays at standard 4/4 time. It uses Java's Clip class to play .wav files - five default .wav sounds are
+          provided. When multiple sounds are played at the same time, I merge the byte arrays of the played .wav files
+          and play the newly created byte array.</p>
         </div>
-        <div class = "blogentry">
-
-          <div id = "blogdate">
-            April 23, 2016
-          </div>
-          <div id = "Snippetoffirstblog">"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum."
-            </div>
-            <div class = "blogreadmorebutton">
-              <a href = "https://www.google.com">
-                Read more...
-              </a>
+        <div class="col-md-5 col-md-pull-7">
+          <div class = "projimage">
+            <div class = "thumbnail house-thumb">
+              <img class="featurette-image img-responsive center-block" src="img/drumpic.jpg" alt="Generic placeholder image">
             </div>
           </div>
-          <div class = "blogentry">
+        </div>
+      </div>
 
-            <div id = "blogdate">
-              April 20, 2016
-            </div>
-            <div id = "Snippetoffirstblog">"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-              anim id est laborum."
-              </div>
-              <div class = "blogreadmorebutton">
-                <a href = "https://www.google.com">
-                  Read more...
-                </a>
-              </div>
-            </div>
-            <div class = "blogentry">
+      <hr class="featurette-divider">
 
-              <div id = "blogdate">
-                April 16, 2016
-              </div>
-              <div id = "Snippetoffirstblog">"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                anim id est laborum."
-                </div>
-                <div class = "blogreadmorebutton">
-                  <a href = "https://www.google.com">
-                    Read more...
-                  </a>
-                </div>
-              </div>
-
-        </section>
-        <section class = "section" id = "carousel-section">
-          <!-- credit to HW8 from WDD for providing significant inspiration and
-                skeleton code to work with.-->
-            <div class = "carousel-container">
-            <!-- Question 2: Carousel Code Here -->
-                <div id = "carousel">
-                  <div class = "carousel-item">
-                    <div class = "quote"> "Hot sauce in my bag, swag"
-                      <div class = "author">
-                        Beyonce
-                      </div>
-                    </div>
-                  </div>
-                  <div class = "carousel-item">
-                    <div class = "quote"> "I have a dream"
-                      <div class = "author">
-                        Martin Luther King
-                      </div>
-                    </div>
-                  </div>
-                  <div class = "carousel-item">
-                    <div class = "quote"> "I can see Russia from my house"
-                      <div class = "author">
-                        Sarah Palin
-                      </div>
-                    </div>
-                  </div>
-                  <div class = "carousel-item">
-                    <div class = "quote"> "Aaannddd IiiiiiiiIIIIIIiIIIIIiiIIiIII WILLL ALWAYSSSS LOVVEEEEE YOUUUUUU"
-                      <div class = "author">
-                        Whitney Houston
-                      </div>
-                    </div>
-                  </div>
-                  <div class = "carousel-item">
-                    <div class = "quote"> "Man and fish can coexist peacefully."
-                      <div class = "author">
-                        George H. W. Bush
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-            <!-- End Question 2 Here (Use as many lines as needed, but don't add code below this point)-->
-                <div id="carousel-prev">
-                    <img class="img-scaled" src="assets/img/arrowleft.png" />
-                </div>
-                <div id="carousel-next">
-                    <img class="img-scaled" src="assets/img/arrowright.png" />
-                </div>
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading" style = "font-size: 30px">Word Processor <span class="text-muted">Spring 2016</span></h2>
+          <p class="lead">Using a doubly linked list in Java to hold user-inputted text and JavaFX to render
+          text, I recreated a word processor. It accounted for word wrapping, implemented arrow key controls, mouse clicking,
+         and deletion.</p>
+        </div>
+        <div class="col-md-5">
+          <div class = "projimage">
+            <div class = "thumbnail house-thumb">
+              <img class="featurette-image img-responsive center-block" src="img/wordeditor.png" alt="Generic placeholder image">
             </div>
-        </section>
-        <section class = "section" id = "contactsection">
-          <div class = "contactme">Contact Me</div>
-          <div class = "contactcontainer">
-            <div class = "contactimg">
-
-                <a href = "mailto:lijw@berkeley.edu">
-                  <img class="contact-img" src="assets/img/gmail.png"/>
-                </a>
-
-            </div>
-            <div class = "contactimg">
-              <a href = "https://www.facebook.com/jeffrey.li.967">
-                <img class="contact-img" src="assets/img/facebook.jpg" />
-              </a>
-            </div>
-            <div class = "contactimg">
-              <a href = "https://www.instagram.com/lijw97/">
-                <img class="contact-img" src="assets/img/instagram.png" />
-              </a>
-            </div>
-            <div class = "contactimg">
-              <a href = "https://www.linkedin.com/in/jeffrey-li-95a677b2">
-                <img class="contact-img" src="assets/img/linkedin.png" />
-              </a>
-            </div>
-
           </div>
-        </section>
+      </div>
+
+
+      <!-- /END THE FEATURETTES -->
+
+
+
+
+    </div><!-- /.container -->
+        </div>
+      </div>
+        <hr class = "featurette-divider">
+        <div id = "music"> What am I listening to right now? </div>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class = "item active">
+              <div class = "container">
+                <div class = "slide-wrapper">
+                  <div class = "row">
+                    <div class = "col-lg-6">
+                      <div class = "slide-image">
+                        <div class = "thumbnail house-thumb">
+                          <img src = "img/u2.jpg" alt = "With or Without You">
+                        </div>
+                      </div>
+                    </div>
+                    <div class = "col-lg-6">
+                      <div class = "slide-content">
+                        <h1>With or Without You</h1>
+                        <p>The Joshua Tree - U2 (1987)</p>
+                        <a href="https://www.youtube.com/watch?v=4AEQZ5g1eYM" class = "btn btn-primary">Take a listen!</a>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div class = "item">
+                <div class = "container">
+                  <div class = "slide-wrapper">
+                    <div class = "row">
+                      <div class = "col-lg-6">
+                        <div class = "slide-image">
+                          <div class = "thumbnail house-thumb">
+                            <img src = "img/chancetherapper2.jpg" alt = "Summer Friends">
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class = "col-lg-6">
+                        <div class = "slide-content">
+                          <h1>Summer Friends</h1>
+                          <p>Coloring Book - Chance the Rapper (2016)</p>
+                          <a href="https://www.youtube.com/watch?v=3j3D0hBhlMc" class = "btn btn-primary">Take a listen!</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class = "item">
+              <div class = "container">
+                <div class = "slide-wrapper">
+                  <div class = "row">
+                    <div class = "col-lg-6">
+                      <div class = "slide-image">
+                        <div class = "thumbnail house-thumb">
+                          <img src = "img/chancetherapper.jpg" alt = "Favorite Song">
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class = "col-lg-6">
+                      <div class = "slide-content">
+                        <h1>Favorite Song ft. Childish Gambino</h1>
+                        <p>Acid Rap - Chance the Rapper (2013)</p>
+                        <a href="https://www.youtube.com/watch?v=8mtA9GvpzwU" class = "btn btn-primary">Take a listen!</a>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class = "item">
+            <div class = "container">
+              <div class = "slide-wrapper">
+                <div class = "row">
+                  <div class = "col-lg-6">
+                    <div class = "slide-image">
+                      <div class = "thumbnail house-thumb">
+                        <img src = "img/kanye.jpg" alt = "Champions">
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class = "col-lg-6">
+                    <div class = "slide-content">
+                      <h1>Champions</h1>
+                      <p>Cruel Winter - Kanye West (est. 2016)</p>
+                      <a href="https://www.youtube.com/watch?v=O5khVzuRGEg" class = "btn btn-primary">Take a listen!</a>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class = "item">
+          <div class = "container">
+            <div class = "slide-wrapper">
+              <div class = "row">
+                <div class = "col-lg-6">
+                  <div class = "slide-image">
+                    <div class = "thumbnail house-thumb">
+                      <img src = "img/thekillers.jpg" alt = "Human">
+                    </div>
+                  </div>
+
+                </div>
+                <div class = "col-lg-6">
+                  <div class = "slide-content">
+                    <h1>Human</h1>
+                    <p>Day and Age - The Killers (2008)</p>
+                    <a href="https://www.youtube.com/watch?v=RIZdjT1472Y" class = "btn btn-primary">Take a listen!</a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div><!-- /.carousel -->
+
+        <!-- FOOTER -->
+
+    </div>
+      <hr class="featurette-divider contact">
+    <div class = "section" id = "contactsection">
+      <div class = "contactwrapper">
+        <div class = "contactme">Like what you see? Get in touch!</div>
+      </div>
+      <div class = "contactcontainer">
+        <div class = "contactimg">
+
+            <a href = "mailto:lijw@berkeley.edu" class = "pic">
+              <img class="contact-img" src="img/gmail.png"/>
+            </a>
+
+        </div>
+        <div class = "contactimg">
+          <a href = "https://www.facebook.com/jeffrey.li.967" class = "pic">
+            <img class="contact-img" src="img/facebook.jpg" />
+          </a>
+        </div>
+        <div class = "contactimg">
+          <a href = "https://www.instagram.com/lijw97/" class = "pic">
+            <img class="contact-img" src="img/instagram.png" />
+          </a>
+        </div>
+        <div class = "contactimg" >
+          <a href = "https://www.linkedin.com/in/jeffrey-li-95a677b2" class = "pic">
+            <img class="contact-img" src="img/linkedin.png" />
+          </a>
+        </div>
+
+      </div>
     </div>
   </body>
-
-
 
 
 </html>
