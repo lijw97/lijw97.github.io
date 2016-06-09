@@ -74,11 +74,19 @@ a.pic {
 }
 
 .artistinfo {
-  font-size: 13px;
+  /*font-size: 13px;
   color: white;
   position: relative;
   bottom: -37vh;
-  right: -82vw;
+  right: -82vw;*/
+
+  font-size: 1vw;
+color: white;
+margin-left: 82vw;
+margin-top: 17vw;
+/* position: relative; */
+/* bottom: -37vh; */
+/* right: -82vw; */
 }
 
 #body {
