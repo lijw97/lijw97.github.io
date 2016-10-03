@@ -13,6 +13,7 @@ body {
   width: 100%;
   margin: 0;
   font-weight: 300;
+  overflow: visible;
 }
 a.pic {
 
@@ -84,7 +85,7 @@ a.pic {
 }
 
 #body {
-  height: 200vh;
+
   width: 100%;
   color: #4a4a4a;
 
@@ -397,9 +398,8 @@ li {
 
 .contactme {
   margin-left: 5.930318754%;
-    font-size: 25px;
-    height: 35px;
-    padding-top:7.5px;
+      padding-top: 7.5px;
+      font-size: 5vh;
 }
 .sidebar-divider {
   margin-left: 10%;
@@ -412,16 +412,19 @@ h1 {
   font-weight: 300;
 }
 .contactimg{
-	width: 3em;
-	height:3em;
-	margin-right:40px;
-	float: left;
+  width: 3em;
+height: 3em;
+margin-left: 20px;
+margin-right: 20px;
+display: inline-block;
 }
 .contactcontainer {
-  height: 100%;
-width: 50%;
-margin-left: 65%;
-margin-top: -3.65%;
+  height: 42px;
+      width: 50%;
+      text-align: center;
+      /* margin-left: 65%; */
+      margin-top: 2%;
+      margin-left: 25%;
 }
 
 #contactsection.section {
