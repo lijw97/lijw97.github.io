@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 
 
-  // QUESTION 6
+
 
   //Implement the showing and hiding of the sidebar when the user clicks on #sidebar-button here:
 
@@ -27,7 +27,7 @@ $("#sidebar-button").click(function() {
 
 });
 
-  // QUESTION 7
+
 
   //Implement the hiding of the sidebar when the user clicks on the page wrapper here:
 $(".page-wrapper").click(function() {
