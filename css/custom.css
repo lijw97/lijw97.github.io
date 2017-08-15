@@ -126,9 +126,19 @@ a.pic {
     text-decoration: none;
     padding-top: 8px;
     font-weight: 300;
-
+    margin-left: 15%;
+    margin-right: 15%;
 }
+.internships {
 
+      font-size: 18px;
+      text-align: center;
+      text-decoration: none;
+      padding-top: 8px;
+      font-weight: 300;
+      margin-left: 15%;
+      margin-right: 15%;
+}
 .blog{
   font-size: 18px;
   text-align: center;
